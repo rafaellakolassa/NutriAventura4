@@ -1,0 +1,200 @@
+@font-face { 
+    font-family: 'Adigiana Toybox'; 
+    src: url(../font/AdigianaUI.ttf); 
+} 
+ 
+body { 
+    background: rgb(238, 228, 255); 
+    background: radial-gradient(circle, rgba(238, 228, 255, 1) 0%, rgba(160, 124, 228, 1) 100%) 
+} 
+ 
+.navbar-nav .nav-link { 
+    font-size: 1.2rem; 
+} 
+ 
+.navbar-brand img { 
+    height: 60px; 
+    width: auto; 
+} 
+ 
+.navbar { 
+    padding: 1rem; 
+} 
+ 
+.quicksand.body { 
+    font-family: "Quicksand", sans-serif; 
+    font-optical-sizing: auto; 
+    font-weight: 600; 
+    font-style: normal; 
+} 
+ 
+.search-container { 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end; 
+    width: 100%; 
+    font-family: "Quicksand", sans-serif; 
+    font-optical-sizing: auto; 
+    font-weight: 600; 
+    font-style: normal; 
+} 
+ 
+.search-container input[type="text"] { 
+    width: 250px; 
+    height: 40px; 
+    padding: 10px 40px 10px 35px; 
+    border: 2px solid #fff; 
+    border-radius: 20px; 
+    background: rgb(255, 222, 0); 
+    background: radial-gradient(circle, rgba(255, 222, 0, 1) 0%, rgba(255, 176, 0, 1) 100%); 
+    color: #8b5b34; 
+    font-size: 16px; 
+    outline: none; 
+    transition: width 0.4s ease-in-out; 
+} 
+ 
+.search-container input[type="text"]::placeholder { 
+    color: #8b5b34; 
+} 
+ 
+.search-container .search-icon { 
+    position: absolute; 
+    right: 219px; 
+    /*Posiciona o icone no lugar*/ 
+    color: #8b5b34; 
+    font-size: 20px; 
+} 
+ 
+.search-container button { 
+    position: absolute; 
+    right: 0px; 
+    top: 0; 
+    width: 40px; 
+    height: 40px; 
+    border: none; 
+    background: none; 
+    cursor: pointer; 
+    outline: none; 
+} 
+ 
+.search-container button i { 
+    color: #7030a0; 
+    font-size: 20px; 
+} 
+ 
+.material-symbols-outlined { 
+    font-variation-settings: 
+        'FILL' 0, 
+        'wght' 500, 
+        'GRAD' 0, 
+        'opsz' 24; 
+    color: white; 
+} 
+ 
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+} 
+ 
+.site-header { 
+    background: rgb(255, 222, 0); 
+    background: radial-gradient(circle, rgba(255, 222, 0, 1) 0%, rgba(255, 176, 0, 1) 100%); 
+    height: 70px; 
+    padding: 10px 0; 
+} 
+ 
+.site-header a { 
+    color: #8b5b34; 
+    padding: 0; 
+    margin-top: 20px; 
+    line-height: normal; 
+    font-family: "Quicksand", sans-serif; 
+    font-optical-sizing: auto; 
+    font-weight: 600; 
+    font-style: normal; 
+} 
+ 
+.site-header a:hover { 
+    color: #4e2b0f; 
+    text-decoration: none; 
+} 
+ 
+.site-header a:not(:last-child)::after { 
+    content: ''; 
+    position: absolute; 
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 1px; 
+    height: 50%; 
+    background-color: #8b5b34; 
+} 
+ 
+.container-form { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 450px; 
+    padding: 20px; 
+    background: radial-gradient(circle, #eee4ff, #8b3dff); 
+    border: 2px solid #fff; 
+    border-radius: 20px; 
+    width: 80%; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+} 
+ 
+section { 
+    width: 100%; 
+    max-width: 800px; 
+} 
+ 
+h1 { 
+    font-family: 'Adigiana Toybox', sans-serif; 
+    color: #ffd524; 
+    text-shadow: 
+        2px 2px 0 #806700, 
+        -2px -2px 0 #806700, 
+        2px -2px 0 #806700, 
+        -2px 2px 0 #806700; 
+    text-align: center; 
+    margin-bottom: 20px; 
+} 
+ 
+label { 
+    font-family: 'Adigiana Toybox', sans-serif; 
+    color: #ffd524; 
+    text-shadow: 
+        0.5px 0.5px 0 #806700, 
+        -0.5px -0.5px 0 #806700, 
+        0.5px -0.5px 0 #806700, 
+        -0.5px 0.5px 0 #806700; 
+        display: block;
+        margin-bottom: 5px;
+} 
+ 
+input[type="text"], input[type="password"] { 
+    background: radial-gradient(circle, #ffde00, #ffb000); 
+    color: #8b5b34; 
+    border: 2px solid #fff; 
+    border-radius: 10px; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 7px; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    width: 100%;
+} 
+ 
+button { 
+    background: radial-gradient(circle, #ffde00, #ffb000); 
+    color: #806700; 
+    border: 2px solid #ffffff; 
+    border-radius: 5px; 
+    font-family: "Adigiana Toybox", sans-serif; 
+    font-size: 16px; 
+    padding: 10px 20px;
+    cursor: pointer;
+}
